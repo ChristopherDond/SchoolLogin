@@ -1,14 +1,16 @@
+(Versão em Português)(README.pt-BR.md)
+
 # Escola App
 
-Aplicativo Flutter desenvolvido como atividade prática da disciplina de **Desenvolvimento de Elementos Visuais, Interface de Usuário e Usabilidade de Aplicação Mobile** — Senac Taboão da Serra.
+Flutter application developed as a hands-on activity for the **Mobile Application Visual Elements, User Interface, and Usability Development** course — Senac Taboão da Serra.
 
-## Funcionalidades
+## Features
 
-- Tela de login com validação de campos e feedback via SnackBar
-- Tela principal (Home) com acesso ao cadastro
-- Tela de cadastro de aluno com validação inline por campo
+- Login screen with field validation and SnackBar feedback
+- Main screen (Home) with access to registration
+- Student registration screen with per-field inline validation
 
-## Estrutura
+## Structure
 
 ```
 lib/
@@ -19,24 +21,24 @@ lib/
     └── cadastro_page.dart
 ```
 
-## Requisitos
+## Requirements
 
 - Flutter SDK 3.x
 - Dart 3.x
-- Android Emulator ou dispositivo físico
+- Android Emulator or physical device
 
-## Como rodar
+## How to run
 
 ```bash
 flutter pub get
 flutter run
 ```
 
-## Fluxo de navegação
+## Navigation flow
 
 ```mermaid
 graph LR
-    A[LoginPage] -->|campos preenchidos| B[HomePage]
-    B -->|botão cadastrar| C[CadastroPage]
-    C -->|salvar com sucesso| C
+    A[LoginPage] -->|fields filled| B[HomePage]
+    B -->|register button| C[CadastroPage]
+    C -->|saved successfully| C
 ```
