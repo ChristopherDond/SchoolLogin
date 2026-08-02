@@ -1,4 +1,4 @@
-(Versão em Português)(README.pt-BR.md)
+[(Versão em Português)](README-ptbr.md)
 
 # Escola App
 
